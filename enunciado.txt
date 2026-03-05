@@ -1,0 +1,25 @@
+El objetivo de esta segunda práctica es migrar el desarrollo hacia el framework Next.js, implementando un sistema de navegación multi-página. Se trabajará con rutas normales y dinámicas para gestionar una base de datos de países.
+
+
+
+Estructura de Rutas y API
+Se utilizará la API pública de REST Countries (https://restcountries.com/v3.1/).
+
+Ruta Principal (/):
+Debe mostrar un listado de todos los países (o filtrados por región, ej: /all o /region/europe).
+Debe incluir un buscador funcional que filtre los resultados por nombre.
+Cada tarjeta de país debe mostrar la bandera, el nombre común y la población.
+Ruta Dinámica (/country/[name]):
+Al hacer clic en un país de la lista, se debe navegar a su ruta dinámica.
+Esta página debe recuperar y mostrar detalles específicos: nombre oficial, capital, subregión, lenguajes y monedas.
+Debe incluir un enlace o botón para volver a la página principal.
+Gestión de Estado
+Es responsabilidad del alumno determinar qué componentes deben gestionar estado y cómo se distribuye la lógica de fetching para evitar pantallas en blanco.
+
+
+Instrucciones de Entrega
+El código debe estar en el repositorio de GitHub.
+El README.md debe incluir:
+Instrucciones de instalación (npm install) y arranque (npm run dev).
+Explicación de cómo se ha estructurado la navegación y cómo se han resuelto los problemas con los datos anidados de la API.
+Restricción: No está permitido el uso de IA generativa para resolver la actividad.
