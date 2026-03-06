@@ -1,17 +1,30 @@
-
-
 export type Country = {
-    common_name: string,
-    population: number,
-    flag: string
-}
+    name: {
+        common: string
+        official: string
+    }
 
-export type CountrySpecific = {
-    common_name: string,
-    oficial_name:string,
-    population: number,
-    subregion: string,
-    languages: string[],
-    currency: string,
-    flag: string
+    flags: {
+        png: string
+        svg: string
+    }
+
+    population: number
+
+    capital?: string[]
+
+    subregion?: string
+
+    languages?: {
+        [key: string]: string
+    }
+
+    currencies?: {
+        [key: string]: {
+            name: string
+            symbol: string
+        }
+    }
+
+    cca3: string
 }
