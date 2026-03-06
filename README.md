@@ -17,3 +17,6 @@ Una vez todo este instalado en el espacio de código, en la misma altura mencion
 
 Problemas de formato y css => mirarse documentacion de flex y ejemplos de clase
 Problemas al imprimir monedas por que es un array de key:string => mirar stack overflow y w3schools
+Problemas de como hacer una searchbar => mirar githubs y videos de yt https://github.com/TZawalich/React_Search_Components este es uno de los que vi y me ha ayudado
+
+Problemas en la page.tsx de la ruta de nombre especifica => no se como solucionar ese error o warning porque al menos a mi en este codespace me funciona (Linea 21)

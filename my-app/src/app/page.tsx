@@ -29,7 +29,7 @@ const Home = () => {
 
   return (
     <main>
-      <h3>Introduce el nombre de pais que estes buscando: </h3>
+      <h3>Introduce el nombre de pais que estés buscando: </h3>
       <SearchBar search={search} setSearch={setSearch} />
       <h1>Lista de paises</h1>
       <div className="grid">
