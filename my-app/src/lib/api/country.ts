@@ -4,7 +4,7 @@ import { api } from "./axios";
 
 
 export async function getAllCountries() {
-  const response = await api.get<Country>(`/all?fields=name`);
+  const response = await api.get<Country[]>(`/all?fields=name,flags,population`);
   return response.data;
 }
 
