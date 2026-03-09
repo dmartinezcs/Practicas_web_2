@@ -10,7 +10,7 @@ h1 {
 
 .grid {
   display: flex;
-  flex-wrap: wrap; /* para que se vayan a la siguiente fila si no caben */
-  gap: 1.5rem; /* espacio entre tarjetas */
-  justify-content: center; /* centra las tarjetas horizontalmente */
+  flex-wrap: wrap; 
+  gap: 1.5rem;
+  justify-content: center;
 }
