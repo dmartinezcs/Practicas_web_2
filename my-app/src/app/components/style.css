@@ -1,15 +1,15 @@
 .card {
-  background-color: #f0f0f0; /* fondo gris claro */
-  border-radius: 8px; /* bordes redondeados */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* sombra suave */
+  background-color: #f0f0f0; 
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   padding: 1rem;
-  width: 200px; /* ancho fijo, ajustable */
+  width: 200px; 
   text-align: center;
   transition: transform 0.2s;
 }
 
 .card:hover {
-  transform: translateY(-5px); /* efecto al pasar el ratón */
+  transform: translateY(-5px);
 }
 
 .card img {
